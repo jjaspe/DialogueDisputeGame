@@ -20,15 +20,12 @@ namespace DialogueDisputeFormsGame
         static
         void Main(string[] args)
         {
-            DialogResult d = MessageBox.Show("Play Online?", "Online/Offline", MessageBoxButtons.YesNo);
+            DialogResult d = DialogResult.Yes;//MessageBox.Show("Play Online?", "Online/Offline", MessageBoxButtons.YesNo);
 
             if (d.Equals(DialogResult.Yes))
                 threeFormTesting(args);
             else
                 offline();
-            //twoClientFormTest(args);
-            //twoClientConsoleTest(args);
-
         }
 
         static void offline()
@@ -50,10 +47,17 @@ namespace DialogueDisputeFormsGame
             ConnectToServerForm connectForm1 = new ConnectToServerForm(), connectForm2 = new ConnectToServerForm();
             MainMenuController mainController1 = new MainMenuController(clientManager1, mainForm1, connectForm1) { MyMatchFormController = new GraphicMatchController() },
             mainController2 = new MainMenuController(clientManager2, mainForm2, connectForm2) { MyMatchFormController = new GraphicMatchController() };
-            mainController1.isAutorun = true;
-            mainController2.isAutorun = true;
-            mainController1.autorunName = "Player 1";
-            mainController2.autorunName = "Player 2";
+
+            DialogResult d = MessageBox.Show("Autorun?", "Autorun", MessageBoxButtons.YesNo);
+
+            if (d == DialogResult.Yes)
+            {
+                mainController1.isAutorun = true;
+                mainController2.isAutorun = true;
+                mainController1.autorunName = "Player 1";
+                mainController2.autorunName = "Player 2";
+            }
+
             mainController1.start();
             mainController2.start();
 
@@ -89,7 +93,7 @@ namespace DialogueDisputeFormsGame
             //Start server and second client only if this is the first client
             if (number.Equals("First"))
             {
-                //serverProcess.Start();
+                serverProcess.Start();
                 openNewClient("Second");
                 formTesting("First");
             }
@@ -151,7 +155,7 @@ namespace DialogueDisputeFormsGame
 
         public static void openNewClient(String name)
         {
-            Process serverProcess = Process.Start("DialogueDisputeGameClient.exe", name);
+            Process serverProcess = Process.Start("DialogueDisputeFormsGame.exe", name);
             serverProcess.EnableRaisingEvents = true;
         }
 

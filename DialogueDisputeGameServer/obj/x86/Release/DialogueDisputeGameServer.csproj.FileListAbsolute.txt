@@ -1,0 +1,12 @@
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DialogueDisputeGameServer.exe.config
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DialogueDisputeGameServer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DialogueDisputeGameServer.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Release\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.ServerForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.Properties.Resources.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.pdb

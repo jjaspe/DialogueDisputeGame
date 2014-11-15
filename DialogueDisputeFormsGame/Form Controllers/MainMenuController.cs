@@ -551,7 +551,7 @@ namespace DialogueDisputeFormsGameForm_Controllers
             myView.start();
             lobbyUpdate = true;
             if(isAutorun)
-            autorun(this.autorunName.Equals("Player 1"));
+                autorun(this.autorunName.Equals("Player 1"));
         }
 
         void stop()
@@ -571,6 +571,7 @@ namespace DialogueDisputeFormsGameForm_Controllers
 
         void autorun(bool creator=true)
         {
+            isAutorun = false;
             playerName = autorunName;
             if (creator)
             {

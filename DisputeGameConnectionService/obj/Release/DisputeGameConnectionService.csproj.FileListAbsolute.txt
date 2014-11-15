@@ -1,0 +1,9 @@
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\DisputeGameConnectionService.dll.config
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\CharacterSystemLibrary.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\bin\Release\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\obj\Release\DisputeGameConnectionService.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\obj\Release\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeGameConnectionService\obj\Release\DisputeGameConnectionService.pdb

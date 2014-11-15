@@ -1,0 +1,8 @@
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Release\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Release\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Release\CharacterSystemLibrary.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.SoMGrid.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.FormFeedback.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.pdb

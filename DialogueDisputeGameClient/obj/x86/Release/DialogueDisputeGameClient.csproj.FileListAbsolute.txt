@@ -1,0 +1,12 @@
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DialogueDisputeGameMultiplayer.exe.config
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DialogueDisputeGameMultiplayer.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\bin\Release\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\obj\x86\Release\DialogueDisputeGameClient.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\obj\x86\Release\DialogueDisputeGameMultiplayer.Properties.Resources.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\obj\x86\Release\DialogueDisputeGameClient.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\obj\x86\Release\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameClient\obj\x86\Release\DialogueDisputeGameMultiplayer.pdb
