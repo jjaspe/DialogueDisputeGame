@@ -8,7 +8,7 @@ using DisputeCommon;
 
 using DialogueCommon.Interfaces;
 
-namespace DialogueDisputeGameMultiplayer.WCF
+namespace DialogueDisputeGameClient.WCF
 {
     public class WCFClientManager:IClientConnectionManager,IConnectionObservable
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using DisputeCommon;
 
-namespace DialogueDisputeGameMultiplayer.Forms
+namespace DialogueDisputeGameClient.Forms
 {
     public partial class Create_Goal_Form : Form
     {

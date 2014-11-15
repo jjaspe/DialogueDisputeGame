@@ -9,12 +9,12 @@ using DialogueDisputeFormsGameForms;
 
 using DialogueCommon.Interfaces;
 using DisputeCommon;
-using DialogueDisputeGameMultiplayer.Network;
+using DialogueDisputeGameClient.Network;
 
 
-using DialogueDisputeGameMultiplayer;
-using DialogueDisputeGameMultiplayer.WCF;
-using DialogueDisputeGameMultiplayer.Forms;
+using DialogueDisputeGameClient;
+using DialogueDisputeGameClient.WCF;
+using DialogueDisputeGameClient.Forms;
 using DialogueDisputeGameClient;
 
 /* ***************************************************Commented out***********************************************

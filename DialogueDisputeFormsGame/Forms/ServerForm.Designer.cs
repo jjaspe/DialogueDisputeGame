@@ -1,4 +1,4 @@
-﻿namespace DialogueDisputeGameMultiplayer
+﻿namespace DialogueDisputeGameClient
 {
     partial class ServerForm
     {

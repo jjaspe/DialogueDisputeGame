@@ -11,7 +11,7 @@ using System.Threading;
 using System.IO;
 using System.Collections;
 
-namespace DialogueDisputeGameMultiplayer.Network
+namespace DialogueDisputeGameClient.Network
 {
     /// <summary>
     /// 

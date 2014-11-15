@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using DisputeCommon;
-using DialogueDisputeGameMultiplayer.WCF;
+using DialogueDisputeGameClient.WCF;
 using DialogueDisputeFormsGameForms;
 using System.Diagnostics;
-using DialogueDisputeGameMultiplayer.Network;
+using DialogueDisputeGameClient.Network;
 using DialogueDisputeFormsGameForm_Controllers;
-using DialogueDisputeGameMultiplayer.Offline;
+using DialogueDisputeGameClient.Offline;
 using DialogueDisputeGameServer;
 using DisputeCommon.Interfaces;
 
@@ -151,7 +151,7 @@ namespace DialogueDisputeFormsGame
 
         public static void openNewClient(String name)
         {
-            Process serverProcess = Process.Start("DialogueDisputeGameMultiplayer.exe", name);
+            Process serverProcess = Process.Start("DialogueDisputeGameClient.exe", name);
             serverProcess.EnableRaisingEvents = true;
         }
 

@@ -25,3 +25,14 @@ C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplay
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.pdb
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.exe
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGameForms.ConnectToServerForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeGameClient.CreateCharacterForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeGameMultiplayer.Forms.Create_Goal_Form.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGameForms.FeedbackForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGameForms.MainMenuForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeGameClient.MatchForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeGameMultiplayer.ServerForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGameForms.SoMSelectorForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.Properties.Resources.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.csproj.GenerateResource.Cache

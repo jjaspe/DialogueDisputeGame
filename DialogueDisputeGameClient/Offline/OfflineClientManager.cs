@@ -6,7 +6,7 @@ using DisputeCommon;
 using DialogueCommon.Interfaces;
 using DisputeCommon.Interfaces;
 
-namespace DialogueDisputeGameMultiplayer.Offline
+namespace DialogueDisputeGameClient.Offline
 {
     public class OfflineClientManager:IClientConnectionManager,IConnectionObservable
     {

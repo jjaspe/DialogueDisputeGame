@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using DisputeCommon;
-using DialogueDisputeGameMultiplayer.Offline;
+using DialogueDisputeGameClient.Offline;
 using DisputeCommon.Interfaces;
 
-namespace DialogueDisputeGameMultiplayer.Offline
+namespace DialogueDisputeGameClient.Offline
 {
     public class OfflineServerManager:IGameObserver,IServerConnectionManager
     {

@@ -12,7 +12,7 @@ using System.Threading;
 using System.Collections;
 using DisputeCommon;
 
-namespace DialogueDisputeGameMultiplayer
+namespace DialogueDisputeGameClient
 {
     delegate void accepter(ref TcpClient clientSocket,TcpListener serverSocket);
 

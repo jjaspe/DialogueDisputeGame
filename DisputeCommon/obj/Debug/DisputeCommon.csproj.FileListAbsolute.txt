@@ -8,3 +8,9 @@ C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplay
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DisputeCommon\obj\Debug\DisputeCommon.SoMGrid.resources
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DisputeCommon\obj\Debug\DisputeCommon.csprojResolveAssemblyReference.cache
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DisputeCommon\obj\Debug\DisputeCommon.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.SoMGrid.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.FormFeedback.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.pdb

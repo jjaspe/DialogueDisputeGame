@@ -1,4 +1,4 @@
-﻿namespace DialogueDisputeGameMultiplayer.Forms
+﻿namespace DialogueDisputeGameClient.Forms
 {
     partial class Create_Goal_Form
     {

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using DialogueDisputeGameMultiplayer.Network;
+using DialogueDisputeGameClient.Network;
 using DisputeCommon;
 using System.Diagnostics;
 using System.Threading;
-using DialogueDisputeGameMultiplayer.WCF;
-using DialogueDisputeGameMultiplayer;
-using DialogueDisputeGameMultiplayer.Offline;
+using DialogueDisputeGameClient.WCF;
+using DialogueDisputeGameClient;
+using DialogueDisputeGameClient.Offline;
 using DisputeCommon.Interfaces;
 
 namespace DialogueDisputeGameClient

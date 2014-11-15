@@ -8,7 +8,7 @@ using DialogueDisputeFormsGameForms;
 
 using DialogueDisputeFormsGameForm_Controllers;
 using DisputeCommon;
-using DialogueDisputeGameMultiplayer.Network;
+using DialogueDisputeGameClient.Network;
 using DialogueCommon.Interfaces;
 using DialogueDisputeGameClient;
 

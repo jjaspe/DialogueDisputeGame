@@ -12,3 +12,17 @@ C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplay
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.exe
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.pdb
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DialogueDisputeGameServer.exe.config
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DialogueDisputeGameServer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DialogueDisputeGameServer.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\bin\Debug\CharacterSystemLibrary.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.ServerForm.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.Properties.Resources.resources
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.csproj.GenerateResource.Cache
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Debug\DialogueDisputeGameServer.pdb
