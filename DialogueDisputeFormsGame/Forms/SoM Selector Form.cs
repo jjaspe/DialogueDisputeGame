@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using DisputeCommon;
 
-namespace DialogueDisputeFormsGameForms
+namespace DialogueDisputeFormsGame.Forms
 {
     public partial class SoMSelectorForm : Form
     {

@@ -14,3 +14,6 @@ C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\Dispu
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.csproj.GenerateResource.Cache
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.dll
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Debug\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Debug\DisputeCommon.dll
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Debug\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\bin\Debug\CharacterSystemLibrary.dll

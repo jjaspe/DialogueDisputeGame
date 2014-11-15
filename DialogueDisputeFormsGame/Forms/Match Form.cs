@@ -10,7 +10,7 @@ using CharacterSystemLibrary.Classes;
 
 using DisputeCommon;
 
-using DialogueDisputeFormsGameForms;
+using DialogueDisputeFormsGame.Forms;
 using DisputeCommon.Arguments;
 
 namespace DialogueDisputeGameClient

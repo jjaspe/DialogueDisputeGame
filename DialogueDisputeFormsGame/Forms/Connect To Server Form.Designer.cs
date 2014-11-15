@@ -1,4 +1,4 @@
-﻿namespace DialogueDisputeFormsGameForms
+﻿namespace DialogueDisputeFormsGame.Forms
 {
     partial class ConnectToServerForm
     {

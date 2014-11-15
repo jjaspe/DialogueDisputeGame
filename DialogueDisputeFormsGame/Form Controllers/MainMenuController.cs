@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-using DialogueDisputeFormsGameForms;
+using DialogueDisputeFormsGame.Forms;
 
 using DialogueCommon.Interfaces;
 using DisputeCommon;

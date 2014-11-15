@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DialogueDisputeFormsGameForms
+namespace DialogueDisputeFormsGame.Forms
 {
     public partial class FeedbackForm : Form
     {

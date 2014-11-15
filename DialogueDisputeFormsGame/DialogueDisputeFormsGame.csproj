@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CharacterSystemLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Includes\CharacterSystemLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -156,7 +160,7 @@
     <Content Include="Forms\refresh.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DialogueDisputeGameMultiplayer\DialogueDisputeGameClient.csproj">
+    <ProjectReference Include="..\DialogueDisputeGameClient\DialogueDisputeGameClient.csproj">
       <Project>{CB6A674F-CDF9-476D-8837-36244C86F605}</Project>
       <Name>DialogueDisputeGameClient</Name>
     </ProjectReference>

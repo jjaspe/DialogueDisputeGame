@@ -11,7 +11,7 @@ using DisputeCommon;
 
 
 
-namespace DialogueDisputeFormsGameForms
+namespace DialogueDisputeFormsGame.Forms
 {
     public partial class ConnectToServerForm : Form,IConnectToServerView
     {

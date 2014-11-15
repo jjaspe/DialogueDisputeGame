@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using CharacterSystemLibrary.Classes;
 
-using DialogueDisputeFormsGameForms;
+using DialogueDisputeFormsGame.Forms;
 
 using DialogueDisputeFormsGameForm_Controllers;
 using DisputeCommon;

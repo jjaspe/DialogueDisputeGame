@@ -70,10 +70,7 @@ namespace DialogueDisputeGameServer
         {
             if (this.IsDisposed)
                 return;
-            this.Invoke((MethodInvoker)delegate
-            {
                 txtFeedback.Text = line + "\r\n" + txtFeedback.Text;
-            });
         }
 
         private void btnClear_Click(object sender, EventArgs e)

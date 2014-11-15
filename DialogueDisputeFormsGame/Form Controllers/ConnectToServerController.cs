@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 using System.Net.Sockets;
-using DialogueDisputeFormsGameForms;
+using DialogueDisputeFormsGame.Forms;
 using System.Windows.Forms;
 using DialogueCommon.Interfaces;
 using DisputeCommon;

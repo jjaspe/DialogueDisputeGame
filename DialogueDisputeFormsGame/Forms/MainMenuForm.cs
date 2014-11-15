@@ -14,7 +14,7 @@ using DisputeCommon;
 
 using System.Threading;
 
-namespace DialogueDisputeFormsGameForms
+namespace DialogueDisputeFormsGame.Forms
 {
     public partial class MainMenuForm : Form,IMainMenuView,IFeedbackWriter
     {               
