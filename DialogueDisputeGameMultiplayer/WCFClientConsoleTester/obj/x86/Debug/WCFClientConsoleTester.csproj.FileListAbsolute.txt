@@ -1,8 +1,0 @@
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\bin\Debug\WCFClientConsoleTester.exe.config
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\bin\Debug\WCFClientConsoleTester.exe
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\bin\Debug\WCFClientConsoleTester.pdb
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\bin\Debug\DisputeGameConnectionService.dll
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\bin\Debug\DisputeGameConnectionService.pdb
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\obj\x86\Debug\WCFClientConsoleTester.exe
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\WCFClientConsoleTester\obj\x86\Debug\WCFClientConsoleTester.pdb

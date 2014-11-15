@@ -1,5 +1,0 @@
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\NamedParameters\bin\Debug\NamedParameters.dll
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\NamedParameters\bin\Debug\NamedParameters.pdb
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\NamedParameters\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\NamedParameters\obj\Debug\NamedParameters.dll
-C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\NamedParameters\obj\Debug\NamedParameters.pdb

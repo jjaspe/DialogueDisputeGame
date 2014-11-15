@@ -1,3 +1,0 @@
-﻿Character File - .sdc
-
-Game File - .sdg
