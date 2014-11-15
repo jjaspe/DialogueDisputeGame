@@ -1,0 +1,12 @@
+﻿-ARGUMENTS
+	- Analyze
+	- Bluff -- DONE
+	- Charm -- DONE
+	- Coerce -- DONE
+	- Convince -- DONE
+	- Empathy -- DONE
+	- Focus -- DONE
+	- Manipulate -- DONE
+	- Scare -- DONE
+	- Taunt -- DONE
+	- Trick -- Seems to work, test after putting in argument feedback in Match form to know which arguments are subterfuge,etc

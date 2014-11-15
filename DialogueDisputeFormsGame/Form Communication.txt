@@ -1,0 +1,8 @@
+﻿
+MainForm
+- MainForm sends view messages to MainController, MainController handles action
+	- If CreateCharacter, MainController creates a CreateCharacterForm, and registers itself as 
+	an observer of said form.
+
+CreateCharacterForm
+- When exiting, update observers, one of which is MainForm, so MainForm displays again after CreateCharacterForm is closed

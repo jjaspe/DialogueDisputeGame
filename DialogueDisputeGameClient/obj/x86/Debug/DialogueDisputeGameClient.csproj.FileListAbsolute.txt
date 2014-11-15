@@ -1,0 +1,14 @@
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DialogueDisputeGameMultiplayer.exe.config
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DialogueDisputeGameMultiplayer.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\CharacterSystemLibrary.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DisputeCommon.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DisputeCommon.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\bin\Debug\CharacterSystemLibrary.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\obj\x86\Debug\DialogueDisputeGameMultiplayer.Properties.Resources.resources
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\obj\x86\Debug\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\obj\x86\Debug\DialogueDisputeGameMultiplayer.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\obj\x86\Debug\DialogueDisputeGameClient.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeGameMultiplayer\obj\x86\Debug\DialogueDisputeGameClient.csproj.GenerateResource.Cache

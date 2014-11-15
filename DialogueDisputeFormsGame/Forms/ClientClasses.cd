@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DialogueDisputeFormsGameForm_Controllers.MainMenuController" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIECAAAJAEAgCAAQACCEAUAgAEAAgAACAgAAGAA=</HashCode>
+      <FileName>Form Controllers\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myMainMenuForm" />
+      <Field Name="myCreateCharacterFormController" />
+      <Field Name="myMatchFormController" />
+      <Field Name="myConnectToServerController" />
+      <Field Name="connectionManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DialogueDisputeFormsGameForms.MainMenuForm" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8wBgAAE1EHAAADCCJACABCQCQgIAcwAJgbMABACAIBA=</HashCode>
+      <FileName>Forms\MainMenuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueDisputeFormsGameForm_Controllers.GraphicConnectToServerFormController" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAIAQgCAAAAAAAAABgAAQAECAACAAAAAA=</HashCode>
+      <FileName>Form Controllers\GraphicConnectToServerController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cm" />
+      <Field Name="myForm" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Bottom" Position="0.156" />
+  </Class>
+  <Class Name="DialogueDisputeFormsGameForm_Controllers.GraphicCreateCharacterController" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAIAAAAAAAAAAAAAAAAAAAECAACAABABA=</HashCode>
+      <FileName>Form Controllers\GraphicCreateCharacterController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myForm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.225" />
+  </Class>
+  <Class Name="DialogueDisputeFormsGameForm_Controllers.GraphicMatchController" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAGAABIKNACAARAAAAAABCAAQAEAQBCAAAAhA=</HashCode>
+      <FileName>Form Controllers\GraphicMatchController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myPlayer1Form" />
+      <Field Name="connection" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DialogueDisputeFormsGameMatchForm" Collapsed="true">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAApgPABABCEIAiAACAKQgAEEAIgCYISAECgIZA=</HashCode>
+      <FileName>Forms\Match Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueDisputeFormsGameCreateCharacterForm" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAGF8AQmAGBRAkARiAAUA66kKIMZQlILoCAKCgJAA=</HashCode>
+      <FileName>Forms\Create Character Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueDisputeFormsGameForms.ConnectToServerForm" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAgAACAAGACAAAAAAAgAIAAAAAAAAQ=</HashCode>
+      <FileName>Forms\Connect To Server Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DialogueDisputeFormsGameController_Interfaces.IMatchFormController" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller Interfaces\IMatchFormController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DialogueDisputeFormsGameController_Interfaces.ICreateCharacterController" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Controller Interfaces\ICreateCharacterController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DisputeCommonIConnectToServerFormController" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller Interfaces\IConnectToServerFormController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DisputeCommon.IConnectionManager" Collapsed="true">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

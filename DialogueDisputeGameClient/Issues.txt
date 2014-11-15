@@ -1,0 +1,23 @@
+﻿
+
+
+- Match is not getting a player with character inside ----------------FIXED------------------
+	- When character is loaded and passed to server, server puts it in player, but 
+	the player in client hasn't updated so it doesnt' have a character.
+	- If we call create match before the client updates, the client will pass a player without
+	character to createMatch, so match starts without a character in player1
+		- We can fix this by finding the right player in Players instead of creating the match 
+		directly with the player sent from client (FIXED)
+
+- worldData is null after second player joins game and updates ------------FIXED-------------
+	- Maybe when second player joins match, the server gets a match from client without worldData, and
+	that's the match it assigns player2 to.
+		- We can fix this by finding the right match in Matches instead of joining the sent match
+			- This was already being done, so not the culprit
+			- The problem might be the order in which WCF rebuilds objects. Since Player is before world alphabetically,
+			it was built first, and it's mutator was getting called, which used worldData
+				- Annotate order so worldData get's built first (FIXED)
+
+- Matches is null in MainMenuController ---------------------FIXED--------------------------
+	- Matches was initialized to new list, but sometimes it came null from server.
+		- Fix by doing a check in MainMenuController after reading the data, if a list is null create an empty one.

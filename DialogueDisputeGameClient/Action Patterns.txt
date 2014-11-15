@@ -1,0 +1,12 @@
+﻿OBSERVER and STRATEGY Patterns used for actions (observer used in SoM actions)
+
+- Create SoMActionObserver class
+- make MatchController subclass it.
+- add a list of SoMControllers to MatchController.
+- in the update of runtimeActionObserver in MatchController, take the action passed, create
+a new SoMController for it (same way as before), but add the MatchController(this) as observer of 
+SoMController.
+- In the update of controllerObserver in MatchController, also update game and forms.
+- When game adds an SoM action, call notify on its observers with the created Action
+- When SoMController finishes an action( after continueFunction), notify controllerObservers
+so they can update game and forms

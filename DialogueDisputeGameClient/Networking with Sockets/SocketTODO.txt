@@ -1,0 +1,4 @@
+﻿ConnectionManager
+	- Create join game state in sendMessage
+	ConnectionManager
+	-- Keep the serializableCharacter and Feedback in connectionManager 

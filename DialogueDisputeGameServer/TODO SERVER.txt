@@ -1,0 +1,15 @@
+﻿TODO SERVER
+- Create Game object, load world,send to connectionmanager(DONE)
+
+MODEL(Game)
+- 
+- Game Controller
+	- Implement enable current player, let connection manager know whose turn it is
+	- fix action update, make it talk to connection and send appropriate messages
+
+COMMUNICATION(WCF)
+
+
+
+
+
