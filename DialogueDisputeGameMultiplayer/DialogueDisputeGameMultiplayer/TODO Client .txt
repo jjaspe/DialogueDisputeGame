@@ -1,0 +1,52 @@
+﻿
+TODO CLIENT
+// The idea is to connect to server, then server shows available games and it's player(DONE), 
+you choose one or create one(DONE),click ready and when there are two players, game starts(DONE)
+
+ConnectToServerForm
+	
+MainMenuForm	
+
+MainMenuController
+
+CreateCharacterForm/Interface/Controller
+
+
+	
+
+
+
+
+DONE CLIENT
+GraphicMatchController
+-- - Fix getFeedback, get it from connection (DONE)
+
+
+MainMenuController
+-- Create join game state in MessageSentFromView -- DONE
+- fix initGame (DONE)
+	
+ConnectToServerForm
+	- - Ask server to connect --DONE
+	- Make it work as dialog from MainMenuForm (DONE)
+
+CreateCharacterView
+- Make the CreateCharacterView(CCV) work like Connect To Sever
+	- Make a ICreateCharacterView interface with methods to pass data from controller to view
+	- Change the form close behavior, just tell the CCV that the form closed using MessageFromView 
+
+CreateCharacterForm
+	- Saving - DONE,tested
+	- fix loadCharacter, load serializable version -- DONE,tested
+
+
+
+MainMenuForm
+- Raise join game event, tell controller --DONE
+- Ask server to create game when you clikc button -- DONE
+- In loadChar, add code that tells connection that we loaded a character--DONE
+	- The idea is that we load the character(DONE), tell the connection(DONE), connection sends it to server(DONE),
+	server puts character into player(DONE), returns it to clientManager(DONE). After that we update form, which gets all the data
+	from clientManager, and form is updated(DONE)
+- Create list to show games
+	- Create button to create game,join game, send ready request--DONE

@@ -1,0 +1,37 @@
+﻿COMMUNICATION(Connection Manager,PlayerClient)
+
+I)PlayerClient
+	- When player asks to join a game, add player as second player of game if possible, update games
+		- Create joinGame state handler in parseMEssage -- DONE
+		- Create tryJoinGame method to get gameName and handle feedback -- DONE
+		- Create joinGame method that checks if game is valid, if yes tells 
+			server to join this player as second player--DONE
+II)Server
+	- Create a method to send match to a PlayerClient -- DONE	
+
+
+
+
+DONE
+-- Create a method to turn a DisputeCharacter into a serializableCharacter -- DONE
+-When  second clients tries to connect, uses same name, fails to connect then tries to connect with 
+a different name he cant connect -- FIXED
+	Use TcpClient.Client.Disconnect(true), then set create new TcpClient
+
+- Create ConnectionManager in server that handles messages between server and client, then generalize it by
+		making an interface --DONE
+	- For now lets make sure two clients can connect to the server. --DONE
+		- Fix the form update, call it in the right thread	--DONE
+		- We need allow clients to connect, display connected clients --DONE
+
+- Make server accept connections
+	- Display connected names --DONE
+
+I)PlayerClient
+	- When player asks to join a game, add player as second player of game if possible, update games
+		- Create joinGame state handler in parseMEssage -- DONE
+		- Create tryJoinGame method to get gameName and handle feedback -- DONE
+		- Create joinGame method that checks if game is valid, if yes tells 
+			server to join this player as second player--DONE
+II)Server
+	- Create a method to send match to a PlayerClient -- DONE	

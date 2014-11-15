@@ -1,0 +1,24 @@
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DialogueDisputeOpenGLView.exe
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DialogueDisputeOpenGLView.pdb
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\Canvas Window Template.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DisputeCommon.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\Tao.FreeGlut.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\Tao.OpenGl.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\Tao.Platform.Windows.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\CharacterSystemLibrary.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\ISE.FreeType.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DisputeCommon.pdb
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\CharacterSystemLibrary.pdb
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\DialogueDisputeOpenGLView.DisputeOpenGLView.resources
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\DialogueDisputeOpenGLView.exe
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\DialogueDisputeOpenGLView.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\Canvas Window Template.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\DialogueDisputeOpenGLView.TestForm.resources
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\obj\x86\Debug\DialogueDisputeOpenGLView.Resource1.resources
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DialogueDisputeGameMultiplayer.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeOpenGLView\bin\Debug\DisputeGameConnectionService.pdb

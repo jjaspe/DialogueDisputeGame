@@ -1,0 +1,15 @@
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\OfflineServerTest.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\OfflineServerTest.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\CharacterSystemLibrary.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DialogueDisputeGameMultiplayer.exe
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DisputeCommon.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DisputeGameConnectionService.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DialogueDisputeGameMultiplayer.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DisputeCommon.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DisputeGameConnectionService.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\CharacterSystemLibrary.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DialogueDisputeGameMultiplayer_Accessor.exe
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\bin\Debug\DialogueDisputeGameMultiplayer_Accessor.pdb
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\obj\Debug\OfflineServerTest.dll
+C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\OfflineServerTest\obj\Debug\OfflineServerTest.pdb

@@ -1,0 +1,2 @@
+﻿TODO
+-- IN WCFCLientManager notify an observer gets deleted when a game is created and throws exception+

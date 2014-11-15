@@ -1,0 +1,47 @@
+﻿HOW ACTIONS WITH RUNTIME COMPONENTS WORK
+
+- Create runtimeActionObserver class
+- make MatchController subclass it.
+- add a list of SoMControllers to MatchController.
+- in the update of runtimeActionObserver in MatchControler, take the action passed, create
+a new SoMController for it (same way as before), but add the MatchController as observer of 
+SoMController.
+- In the update of controllerObserver in MatchControler, update game and forms.
+- When game adds an SoM action, call notify with the created Action
+- When SoMController finishes an action( after continueFunction), notify controllerObservers
+so they can update game and forms
+
+
+HOW EFFECTS-CHECKS WORK
+ /* Check-Effects: Each action will have a series of checks that trigger some effects.
+     * Each of these checks might be dependent or independent of others. A group of dependent checks is grouped
+     * in a checkList, and all this groups (checkLists), independent of each other, are grouped in itsChecks (a checkList[]).
+     * Each check has a threshhold member(a int[]), that represents the outcomes of the check (0=failure,1=small successs,2=success, etc), so
+     * each checkList will have a list of threshholds(an int[][]) that represent the outcomes of all its checks.
+     * A series of effects that will take place simultaneously are grouped in an effectList. The effectList will have a threshhold member (an int[])
+     * that represents the outcomes of the checks that make the effects in this effectList take place.
+     * Since each group of dependent checks (one checkList) can have a group of effects, and there are several of those checkLists,
+     * and for each checkList there are several combinations of outcomes, actions must be a effectList[][].
+     * 
+     * So effectList[i][] is the all the effectLists that can take place depending on the outcome of checkList[i]
+     * 
+     * */
+	 
+HOW EQUALITY CHECKS WORK
+
+2- In order to create equality checks, set the two properties, 
+set Factor to 0, and set threshholds 0 and 1. 
+Then set no effects for threshholds 0 and 2, 
+and the desired effect on threshhold 1. --- DONE 
+
+FOR INCREASED TONE SHIFTS-- 
+	- Add a list of effects toneEffects to dispute that contains all effects that
+	modify "Tone". Add a toneShift stat to dispute that keeps track of tone shifts.
+	Then after every action, re-calculate the Factor of all the Effects in toneEffects
+	based on the current toneShift.
+	If some action changes the tone shifts, then create an effect that changes the
+	toneShift stat.
+
+FOR BONUSES TO toHit on Actions
+   Create a toHitBonus stat in dispute for every action. Any changes to toHits will be
+   stored there, then after every action, recalculate the factors.

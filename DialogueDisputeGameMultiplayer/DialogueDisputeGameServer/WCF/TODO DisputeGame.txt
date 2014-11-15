@@ -1,0 +1,3 @@
+﻿TODO
+- Handle winning
+- Continue the switch in getMessageFromConnection to deal with all arguments

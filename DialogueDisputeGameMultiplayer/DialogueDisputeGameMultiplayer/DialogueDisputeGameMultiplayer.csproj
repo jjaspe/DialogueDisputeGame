@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB6A674F-CDF9-476D-8837-36244C86F605}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DialogueDisputeGameMultiplayer</RootNamespace>
+    <AssemblyName>DialogueDisputeGameMultiplayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CharacterSystemLibrary">
+      <HintPath>..\..\CharacterSystemLibrary\CharacterSystemLibrary\bin\Debug\CharacterSystemLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action Classes\testAction.cs" />
+    <Compile Include="Controls\customButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\customButton.Designer.cs">
+      <DependentUpon>customButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoMGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SoMGrid.Designer.cs">
+      <DependentUpon>SoMGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data Classes\DisputeAction.cs" />
+    <Compile Include="Data Classes\DisputeCharacter.cs" />
+    <Compile Include="Data Classes\disputeFactor.cs" />
+    <Compile Include="Data Classes\DisputeObject.cs" />
+    <Compile Include="Data Classes\Game.cs" />
+    <Compile Include="Data Classes\mouthWeapon.cs" />
+    <Compile Include="Controller Interfaces\ICreateCharacterController.cs" />
+    <Compile Include="Controller Interfaces\IMainMenuController.cs" />
+    <Compile Include="Form Controllers\ConnectionController.cs" />
+    <Compile Include="Form Controllers\GraphicCreateCharacterController.cs" />
+    <Compile Include="Form Controllers\GraphicMatchController.cs" />
+    <Compile Include="Form Controllers\MainMenuController.cs" />
+    <Compile Include="Form Interfaces\IConnector.cs" />
+    <Compile Include="Form Interfaces\IDisputeForm.cs" />
+    <Compile Include="Forms\Connect To Server Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Connect To Server Form.Designer.cs">
+      <DependentUpon>Connect To Server Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Create Character Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Create Character Form.Designer.cs">
+      <DependentUpon>Create Character Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Feedback Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Feedback Form.Designer.cs">
+      <DependentUpon>Feedback Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Match Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Match Form.Designer.cs">
+      <DependentUpon>Match Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game Interfaces\IActionObservable.cs" />
+    <Compile Include="Game Interfaces\IActionObserver.cs" />
+    <Compile Include="Game Interfaces\IControllerObserver.cs" />
+    <Compile Include="Game Interfaces\IDisputeObservable.cs" />
+    <Compile Include="Game Interfaces\IGameObserver.cs" />
+    <Compile Include="Game Interfaces\IMatchController.cs" />
+    <Compile Include="Game Interfaces\IPlayable.cs" />
+    <Compile Include="Game Interfaces\IRuntimeObserver.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\SoMGrid.resx">
+      <DependentUpon>SoMGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connect To Server Form.resx">
+      <DependentUpon>Connect To Server Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Create Character Form.resx">
+      <DependentUpon>Create Character Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Feedback Form.resx">
+      <DependentUpon>Feedback Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Match Form.resx">
+      <DependentUpon>Match Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Filetypes.txt" />
+    <Content Include="Form Communication.txt" />
+    <Content Include="Formats.txt" />
+    <Content Include="Network Communication.txt" />
+    <Content Include="Networking.txt" />
+    <Content Include="How things work.txt" />
+    <Content Include="READ ME.txt" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

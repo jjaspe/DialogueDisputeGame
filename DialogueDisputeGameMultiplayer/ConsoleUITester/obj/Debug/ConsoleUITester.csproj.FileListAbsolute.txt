@@ -1,0 +1,5 @@
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\ConsoleUITester\bin\Debug\ConsoleUITester.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\ConsoleUITester\bin\Debug\ConsoleUITester.pdb
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\ConsoleUITester\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\ConsoleUITester\obj\Debug\ConsoleUITester.dll
+C:\Users\Juan\documents\visual studio 2010\Projects\DialogueDisputeGameMultiplayer\ConsoleUITester\obj\Debug\ConsoleUITester.pdb
