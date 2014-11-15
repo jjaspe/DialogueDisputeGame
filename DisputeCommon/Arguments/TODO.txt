@@ -1,9 +1,0 @@
-﻿	-- Check that all actions that override doArgument reset feedback atts 
-	-- Add feedback to rolls -- DONE
-	-- Fix Hidden rolls
-	-- Apply roll bonus to nonSubterfuge,Subterfuge -- DONE
-	-- Make sure check roll checks all types of properties -- DONE
-	-- Make sure analyzeBonus doesn't go over 1 --DONE
-
-EMpathy: 	
-	-- Add restriction that forces players to have same SOM (DONE,needs testing)
