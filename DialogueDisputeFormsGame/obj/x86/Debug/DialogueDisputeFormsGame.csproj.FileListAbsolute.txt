@@ -23,3 +23,5 @@ C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplay
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeFormsGame\bin\Debug\DisputeGameConnectionService.pdb
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.exe
 C:\Users\Juan\Documents\Visual Studio 2010\Projects\DialogueDisputeGameMultiplayer\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.exe
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Debug\DialogueDisputeFormsGame.pdb
