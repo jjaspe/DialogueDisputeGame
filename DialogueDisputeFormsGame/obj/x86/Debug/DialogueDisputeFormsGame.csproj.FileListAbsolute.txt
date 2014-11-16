@@ -47,4 +47,3 @@ C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\Debug\DialogueDisputeGameServer.pdb
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\Debug\DisputeCommon.pdb
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\Debug\DisputeGameConnectionService.pdb
-C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\Debug\DialogueDisputeFormsGame.exe.config

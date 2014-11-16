@@ -22,4 +22,3 @@ C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Release\DialogueDisputeFormsGame.csproj.GenerateResource.Cache
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Release\DialogueDisputeFormsGame.exe
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\obj\x86\Release\DialogueDisputeFormsGame.pdb
-C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeFormsGame\bin\Release\DialogueDisputeFormsGame.exe.config
