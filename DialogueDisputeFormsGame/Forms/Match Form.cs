@@ -235,7 +235,8 @@ namespace DialogueDisputeGameClient
         {
             this.Text = playerName;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.SetDesktopLocation(0, 200);
+            if (!Player1)
+                this.Left = this.Width;
             this.messagesTimer.Enabled = true;
             this.Show();
         }

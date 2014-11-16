@@ -17,15 +17,6 @@ using DialogueDisputeGameClient.WCF;
 using DialogueDisputeGameClient.Forms;
 using DialogueDisputeGameClient;
 
-/* ***************************************************Commented out***********************************************
- * - playDispute
- * */
-
-
-
-
-
-
 namespace DialogueDisputeFormsGameForm_Controllers
 {
 
