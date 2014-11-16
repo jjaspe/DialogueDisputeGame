@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DisputeCommon
 {
-    public enum MatchViewMessage { Action, Close, SoM,Update }
+    public enum MatchViewMessage { Action, Close, SoM, Update, GameOver }
     public interface IMatchController: IFeedbackWriter,IDisputeViewController
     {
         void MessageSentFromView(MatchViewMessage code, List<object> args,object sender);

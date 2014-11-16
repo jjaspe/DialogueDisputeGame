@@ -165,8 +165,10 @@ namespace DialogueDisputeGameClient.Offline
                         game.Match.Transcript += "SoM chosen:" + som.ToString() + "\n";
                         break;
                     case Messages.GameMessages.GameOver:
+                        //Reset players,remove finished match from list
                         player1.InGame = false;
                         player2.InGame = false;
+                        Matches.Remove(player1.ActiveMatch);
                         player1.ActiveMatch = new Match();
                         player1.ActiveMatch = null;
                         player2.ActiveMatch = null;

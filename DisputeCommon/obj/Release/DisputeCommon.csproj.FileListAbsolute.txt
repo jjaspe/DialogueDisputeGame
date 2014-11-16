@@ -6,3 +6,4 @@ C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\Dis
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.csproj.GenerateResource.Cache
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.dll
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DisputeCommon\obj\Release\DisputeCommon.csprojResolveAssemblyReference.cache

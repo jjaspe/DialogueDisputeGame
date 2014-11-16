@@ -10,3 +10,4 @@ C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.csproj.GenerateResource.Cache
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.exe
 C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.pdb
+C:\Users\Juan\Documents\GitHub\DialogueDisputeGame\DialogueDisputeGameServer\obj\x86\Release\DialogueDisputeGameServer.csprojResolveAssemblyReference.cache

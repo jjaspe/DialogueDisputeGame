@@ -20,7 +20,7 @@ namespace DialogueDisputeFormsGame
         static
         void Main(string[] args)
         {
-            DialogResult d = DialogResult.Yes;//MessageBox.Show("Play Online?", "Online/Offline", MessageBoxButtons.YesNo);
+            DialogResult d = DialogResult.No;//MessageBox.Show("Play Online?", "Online/Offline", MessageBoxButtons.YesNo);
 
             if (d.Equals(DialogResult.Yes))
                 threeFormTesting(args);

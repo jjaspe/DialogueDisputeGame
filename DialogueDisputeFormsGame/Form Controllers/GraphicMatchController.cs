@@ -102,7 +102,7 @@ namespace DialogueDisputeFormsGameForm_Controllers
                     this.dataManager.parseRequest(Messages.GameMessages.doAction, args,this);
                     break;
                 case  MatchViewMessage.Close:
-                    this.dataManager.parseRequest(Messages.GameMessages.GameOver, null,this);                    
+                    this.dataManager.parseRequest(Messages.GameMessages.GameOver, null,this);                  
                     (this as IDisputeViewController).stop();
                     break;
                 case MatchViewMessage.Update:
@@ -110,6 +110,10 @@ namespace DialogueDisputeFormsGameForm_Controllers
                     break;
                 case MatchViewMessage.SoM:
                     this.dataManager.parseRequest(Messages.GameMessages.somChosen, args, this);
+                    break;
+                case MatchViewMessage.GameOver:
+                    this.dataManager.parseRequest(Messages.GameMessages.GameOver, null, this);
+                    (this as IDisputeViewController).stop();
                     break;
                 default:
                     break;

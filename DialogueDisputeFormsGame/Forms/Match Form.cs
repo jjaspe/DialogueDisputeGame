@@ -53,38 +53,31 @@ namespace DialogueDisputeGameClient
             set { myController = value; }
         }
         public MatchForm()
-        {            
+        {
+            this.Top = 0;
             InitializeComponent();
+            initialize();
+        }
+        public MatchForm(IMatchController controller)
+        {
+            this.Top = 0;
+            InitializeComponent();
+            myController = controller;
+            initialize();
+        }
+
+        /// <summary>
+        /// Adds tooltip to buttons using the button Argument's defense and attack property
+        /// </summary>
+        void initialize()
+        {
             string btnName = "";
             foreach (System.Windows.Forms.Control control in this.Controls)
             {
-                
+
                 if (control is customButton)
                 {
-                    btnName=control.Name.Substring(control.Name.IndexOf("txt")+3,control.Name.Length-3);
-
-                    //Let's get arg  first
-                    Argument arg = (from current in Match.PossibleArguments
-                                   where current.ToString().Equals(btnName)
-                                   select current).First();
-
-                    //Now get roll properties and put them in the tag
-                    control.Tag = arg.AttackerCheckProperty + " VS " + arg.DefenderCheckProperty;
-                    ((customButton)control).setToolTipFromTag();
-                }
-            }
-
-        }
-        public MatchForm(IMatchController controller)
-        {        
-            InitializeComponent();
-            myController = controller;
-            string btnName = "";
-            foreach (System.Windows.Forms.Control control in this.grpArguments.Controls)
-            {
-                if (control is customButton)
-                {
-                    btnName = control.Name.Substring(control.Name.IndexOf("btn") + 3, control.Name.Length - 3);
+                    btnName = control.Name.Substring(control.Name.IndexOf("txt") + 3, control.Name.Length - 3);
 
                     //Let's get arg  first
                     Argument arg = (from current in Match.PossibleArguments
@@ -96,7 +89,7 @@ namespace DialogueDisputeGameClient
                     ((customButton)control).setToolTipFromTag();
                 }
             }
-        }        
+        }
 
         
         //Fills controls' values 
@@ -240,7 +233,7 @@ namespace DialogueDisputeGameClient
 
         void IMatchView.start()
         {
-            this.Text = "Player 1";
+            this.Text = playerName;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.SetDesktopLocation(0, 200);
             this.messagesTimer.Enabled = true;
@@ -272,21 +265,13 @@ namespace DialogueDisputeGameClient
             else
                 MessageBox.Show("You lost");
 
-            myController.MessageSentFromView(MatchViewMessage.Close, null, this);
+            myController.MessageSentFromView(MatchViewMessage.GameOver, null, this);
             this.Close();
         }
         void IFeedbackWriter.WriteLine(string line)
         {
             txtMatchTranscript.Text=line+"\r\n"+grpPlayerInfo.Text;
         }
-
-        
-
-        
-
-        
-
-        
     }
         
 }

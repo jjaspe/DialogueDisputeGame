@@ -424,6 +424,7 @@ namespace DialogueDisputeFormsGameForm_Controllers
         int lastSpaceIndex;
         string code = (string)arg;
 
+        //Figure out which form sent message
         if (code.Contains("Form"))
         {
             lastSpaceIndex = code.LastIndexOf("Form");
@@ -448,8 +449,10 @@ namespace DialogueDisputeFormsGameForm_Controllers
                             updatePlayerName();
                             break;
                         case "Match":
-                            this.start();
+                            this.start();                            
                             lobbyUpdate = true;
+                            
+                            this.updateSelectedMatch();
                             break;
                         default:
                             break;
@@ -578,7 +581,10 @@ namespace DialogueDisputeFormsGameForm_Controllers
                 //Connect
                 connectionManager.parseRequest(Messages.GameMessages.connect, new List<object> { autorunName }, this);
                 //Load character
-                loadCharacterFromXml(MainMenuForm.loadCharacterFromXml(), 1);
+                XmlDocument doc=MainMenuForm.loadCharacterFromXml();
+                if(doc==null)
+                    return;
+                loadCharacterFromXml(doc, 1);
                 //Create match
                 createMatch(null);
                 //Lock in
@@ -589,7 +595,10 @@ namespace DialogueDisputeFormsGameForm_Controllers
                 //Connect
                 connectionManager.parseRequest(Messages.GameMessages.connect, new List<object> { autorunName }, this);
                 //Load character
-                loadCharacterFromXml(MainMenuForm.loadCharacterFromXml(), 2);
+                XmlDocument doc = MainMenuForm.loadCharacterFromXml();
+                if (doc == null)
+                    return;
+                loadCharacterFromXml(doc, 2);
                 //Update to get exising matches
                 sendUpdateDataRequest();
                 //Join first match in list
