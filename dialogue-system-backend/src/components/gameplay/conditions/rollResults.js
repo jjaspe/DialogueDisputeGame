@@ -3,11 +3,11 @@ function RollResult(threshold, result) {
     this.result = result;
 }
 
-var RollResults = [
-    new RollResult(6, 'Failure'),
-    new RollResult(8, 'Success'),
-    new RollResult(20, 'GreatSuccess')
-]
+var RollResults = {
+    Failure: new RollResult(6, 'Failure'),
+    Success: new RollResult(8, 'Success'),
+    GreatSuccess: new RollResult(20, 'GreatSuccess')
+}
 
 module.exports = RollResults;
 

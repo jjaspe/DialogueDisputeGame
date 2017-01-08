@@ -3,25 +3,16 @@ var Match = require('./match');
 var ArgumentFactory = require('../gameplay/argument/argumentFactory');
 
 
-var PlayerFactory = function (player1, player2, match) {
-    this.player1 = player1;
-    this.player2 = player2;
-    this.match = match;
-    console.log('building factory 1');
+function PlayerFactory(player1, player2, match) {        
+    this.player1 = player1?player1:this.buildMockPlayer();
+    this.player2 = player2?player2:this.buildMockPlayer();
+    this.match = match?match:this.buildMockMatch();
     this.buildPlayerArguments();
-    console.log('building factory');
-}
-
-var PlayerFactory = function () {
-    this.player1 = this.buildMockPlayer();
-    this.player2 = this.buildMockPlayer();
-    this.match = this.buildMockMatch();
 }
 
 PlayerFactory.prototype.buildPlayerArguments = function () {
-    console.log('building arguments for both');
-    this.buildArguments(this.player1, this.player2, this.match);
-    this.buildArguments(this.player2, this.player1, this.match);
+    buildArguments(this.player1, this.player2, this.match);
+    buildArguments(this.player2, this.player1, this.match);
 }
 
 var buildArguments = function (attacker, defender, match) {

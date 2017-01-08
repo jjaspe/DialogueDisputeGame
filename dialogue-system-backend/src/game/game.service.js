@@ -25,8 +25,9 @@ var startMatch = function () {
     this.gameModel.match = new Match();
     var playerFactory = new PlayerFactory(this.gameModel.player1,
         this.gameModel.player2,this.gameModel.match);
-
-    console.log(this.gameModel.player1);
+    this.gameModel.player1.manipulate.addSoMProvider(this.controllerPlayer1);
+    this.gameModel.player2.manipulate.addSoMProvider(this.controllerPlayer2);
+      
     this.matchStarted = true;
     this.controllerPlayer1.matchStarted(this.gameModel);
     this.controllerPlayer2.matchStarted(this.gameModel);
@@ -46,18 +47,22 @@ GameService.prototype.PlayerReady = function (controller, player) {
         startMatch.call(this);
 }
 
-GameService.prototype.executeArgument = function(argument,controller){
-    
+GameService.prototype.executeArgument = function(argument,controller){    
     var player = getPlayerByController.call(this,controller);
-    console.log(player);
     switch(argument){
         case ArgumentTypes.Manipulate:
+            console.log({'manipulate':player.manipulate});
             player.manipulate.execute();
             break;
         default:
             break;
     }
     return this.gameModel;
+}
+
+GameService.prototype.chooseSoM = function(som, controller){
+    var player = getPlayerByController.call(this,controller);
+    player.chooseSoM(som);
 }
 
 var getPlayerByController = function (controller){

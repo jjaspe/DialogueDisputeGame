@@ -13,19 +13,21 @@ var Roll = require('../roll');
 var Bonus = require('../bonus');
 
 var standardRoll = new Roll(2, 6);
-var emptyRoll = new Roll(0,0);
-var emptyBonus = new Bonus(0,'');
+var emptyRoll = new Roll(0, 0);
+var emptyBonus = new Bonus(0, '');
+var conditionResults = [];
 
 var ArgumentFactory = function (attacker, defender, match) {
     this.attacker = attacker;
     this.defender = defender;
     this.match = match;
+    conditionResults = [ResultTypes.Failure, ResultTypes.Success, ResultTypes.GreatSuccess];
 }
 
 ArgumentFactory.prototype.manipulate = function () {
     console.log('creating manipulate');
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.persuasion,
-        this.defender.selfControl, standardRoll, [], ResultTypes);
+        this.defender.selfControl, standardRoll, [], conditionResults);
 
     var failureEffect = new DoNothingEffect();
     var successEffect = new SoMChoiceShiftEffect(1, this.defender.som);
@@ -34,116 +36,136 @@ ArgumentFactory.prototype.manipulate = function () {
     this.attacker.addObserver(successEffect);
     this.attacker.addObserver(greatSuccessEffect);
 
-    return new Argument("Manipulate",attributeCheckCondition, failureEffect, successEffect, greatSuccessEffect);
+    var manipulateArg = new Argument("Manipulate", attributeCheckCondition, 
+        failureEffect, successEffect, greatSuccessEffect);
+
+    manipulateArg.handleConditionResultHook = function (result) {
+        console.log({'Child hook:':result});
+        console.log({ChildHookThis:this});
+        if(result == ResultTypes.Failure.result || result == ResultTypes.Success.result
+             || result == ResultTypes.GreatSuccess.result)
+            this.somProvider.notify();
+    }
+
+    manipulateArg.addSoMProvider = function (provider){
+        this.somProvider = provider;
+        console.log('added som provider');
+    }
+
+    manipulateArg.notifySoMProvider = function (){
+        this.somProvider.notify();
+    }
+
+    return manipulateArg;
 }
 
 ArgumentFactory.prototype.charm = function () {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.persuasion,
-        this.defender.fortitude, standardRoll, [], ResultTypes);
+        this.defender.fortitude, standardRoll, [], conditionResults);
 
     var failureEffect = new DoNothingEffect();
-    var successEffect = new AttributeShiftEffect(this.match.tone,2,emptyBonus,emptyRoll);
-    var greatSuccessEffect = new AttributeShiftEffect(this.match.tone,3,emptyBonus,emptyRoll); 
+    var successEffect = new AttributeShiftEffect(this.match.tone, 2, emptyBonus, emptyRoll);
+    var greatSuccessEffect = new AttributeShiftEffect(this.match.tone, 3, emptyBonus, emptyRoll);
 
-    return new Argument("Charm",attributeCheckCondition, failureEffect, 
+    return new Argument("Charm", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
 }
 
 ArgumentFactory.prototype.convince = function () {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.persuasion,
-        this.defender.fortitude, standardRoll, [], ResultTypes);
+        this.defender.fortitude, standardRoll, [], conditionResults);
 
-    var failureEffect = new AttributeShiftEffect(this.match.tone,-1,emptyBonus,emptyRoll);
-    var successEffect = new AttributeShiftEffect(this.defender.resistance,0,
-        emptyBonus,new Roll(1, -6));
-    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance,-2,
-        emptyBonus,new Roll(1, -6));
+    var failureEffect = new AttributeShiftEffect(this.match.tone, -1, emptyBonus, emptyRoll);
+    var successEffect = new AttributeShiftEffect(this.defender.resistance, 0,
+        emptyBonus, new Roll(1, -6));
+    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance, -2,
+        emptyBonus, new Roll(1, -6));
 
-    return new Argument("Convince",attributeCheckCondition, failureEffect, 
+    return new Argument("Convince", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
 }
 
 ArgumentFactory.prototype.empathy = function () {
     var somCheckCondition = new SoMCheckCondition(this.attacker.som,
-        this.defender.som, ResultTypes);
+        this.defender.som, conditionResults);
     var failureEffect = new DoNothingEffect();
-    var successEffect = new AttributeShiftEffect(this.defender.resistance,0,
-        emptyBonus,new Roll(1, -6));
-    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance,-2,
-        emptyBonus,new Roll(1, -6));  
+    var successEffect = new AttributeShiftEffect(this.defender.resistance, 0,
+        emptyBonus, new Roll(1, -6));
+    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance, -2,
+        emptyBonus, new Roll(1, -6));
 
-    return new Argument("Empathy",somCheckCondition, failureEffect, 
+    return new Argument("Empathy", somCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
 }
 
 ArgumentFactory.prototype.scare = function () {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.intimidation,
-        this.defender.selfControl, standardRoll, [], ResultTypes);
+        this.defender.selfControl, standardRoll, [], conditionResults);
     var failureEffect = new DoNothingEffect();
-    var successEffect = new AttributeShiftEffect(this.defender.resistance,0,
-        emptyBonus,new Roll(1, -6));
-    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance,-2,
-        emptyBonus,new Roll(1, -6));  
+    var successEffect = new AttributeShiftEffect(this.defender.resistance, 0,
+        emptyBonus, new Roll(1, -6));
+    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance, -2,
+        emptyBonus, new Roll(1, -6));
 
-    return new Argument("Scare",attributeCheckCondition, failureEffect, 
+    return new Argument("Scare", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
-} 
+}
 
 ArgumentFactory.prototype.taunt = function () {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.intimidation,
-        this.defender.selfControl, standardRoll, [], ResultTypes);
+        this.defender.selfControl, standardRoll, [], conditionResults);
 
-    var failureEffect = new AttributeShiftEffect(this.match.tone,-2,emptyBonus,emptyRoll);
+    var failureEffect = new AttributeShiftEffect(this.match.tone, -2, emptyBonus, emptyRoll);
     var successEffect = new SoMChoiceShiftEffect(1, this.defender.som);
     var greatSuccessEffect = new SoMChoiceShiftEffect(2, this.defender.som);
 
-    return new Argument("Taunt",attributeCheckCondition, failureEffect, 
+    return new Argument("Taunt", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
-} 
+}
 
 ArgumentFactory.prototype.coerce = function () {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.intimidation,
-        this.defender.fortitude, standardRoll, [], ResultTypes);
+        this.defender.fortitude, standardRoll, [], conditionResults);
 
-    var failureEffect = new AttributeShiftEffect(this.match.tone,-1,emptyBonus,emptyRoll);
-    var successEffect = new AttributeShiftEffect(this.defender.resistance,0,
-        emptyBonus,new Roll(1, -6));
-    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance,-2,
-        emptyBonus,new Roll(1, -6));  
+    var failureEffect = new AttributeShiftEffect(this.match.tone, -1, emptyBonus, emptyRoll);
+    var successEffect = new AttributeShiftEffect(this.defender.resistance, 0,
+        emptyBonus, new Roll(1, -6));
+    var greatSuccessEffect = new AttributeShiftEffect(this.defender.resistance, -2,
+        emptyBonus, new Roll(1, -6));
 
-    return new Argument("Coerce",attributeCheckCondition, failureEffect, 
+    return new Argument("Coerce", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
-} 
+}
 
 ArgumentFactory.prototype.trick = function (callback) {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.subterfuge,
-        this.defender.perception, standardRoll, [], ResultTypes);
+        this.defender.perception, standardRoll, [], conditionResults);
 
     var failureEffect = new AttributeShiftDecoratorEffect(
-        new AttributeShiftEffect(this.match.tone,-1,emptyBonus,emptyRoll),
-        new RollShiftEffect(new Bonus(-1,'Trick Failure'),
+        new AttributeShiftEffect(this.match.tone, -1, emptyBonus, emptyRoll),
+        new RollShiftEffect(new Bonus(-1, 'Trick Failure'),
             this.attacker.subterfugeArguments));
     var successEffect = new GoAgainArgumentDecorator(
-        new RollShiftEffect(new Bonus(2,'Trick Success',1),this.attacker.subterfugeArguments),
+        new RollShiftEffect(new Bonus(2, 'Trick Success', 1), this.attacker.subterfugeArguments),
         callback);
     var greatSuccessEffect = new GoAgainArgumentDecorator(
-        new RollShiftEffect(new Bonus(3,'Trick Great Success',1),this.attacker.subterfugeArguments),
+        new RollShiftEffect(new Bonus(3, 'Trick Great Success', 1), this.attacker.subterfugeArguments),
         callback);
-    return new Argument("Trick",attributeCheckCondition, failureEffect, 
+    return new Argument("Trick", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
 }
 
 ArgumentFactory.prototype.bluff = function (callback) {
     var attributeCheckCondition = new AttributeCheckCondition(this.attacker.subterfuge,
-        this.defender.perception, standardRoll, [], ResultTypes);
+        this.defender.perception, standardRoll, [], conditionResults);
 
-    var failureEffect = new RollShiftEffect(new Bonus(-1,'Bluff Failure'),
-            this.attacker.subterfugeArguments);
-    var successEffect = new AttributeShiftEffect(this.attacker.resistance,0,emptyBonus,
-        new Roll(1,6));
-    var greatSuccessEffect = new AttributeShiftEffect(this.attacker.resistance,2,emptyBonus,
-        new Roll(1,6));
-    return new Argument("Bluff",attributeCheckCondition, failureEffect, 
+    var failureEffect = new RollShiftEffect(new Bonus(-1, 'Bluff Failure'),
+        this.attacker.subterfugeArguments);
+    var successEffect = new AttributeShiftEffect(this.attacker.resistance, 0, emptyBonus,
+        new Roll(1, 6));
+    var greatSuccessEffect = new AttributeShiftEffect(this.attacker.resistance, 2, emptyBonus,
+        new Roll(1, 6));
+    return new Argument("Bluff", attributeCheckCondition, failureEffect,
         successEffect, greatSuccessEffect);
 }
 

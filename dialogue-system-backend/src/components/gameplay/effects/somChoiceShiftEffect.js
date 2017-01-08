@@ -1,4 +1,4 @@
-
+var SoMShiftEffect = require('./somShiftEffect');
 
 var SoMChoiceShiftEffect = function (amount, somState) {
     this.listening = false;
@@ -15,8 +15,9 @@ SoMChoiceShiftEffect.prototype.undo = function(){
 }
 
 SoMChoiceShiftEffect.prototype.update = function(somDirection){
+    console.log({'got som direction':somDirection});
     if(this.listening){
-        this.somEffect = new SoMChoiceEffect('',this.value,this.som);
+        this.somEffect = new SoMShiftEffect('',this.value,this.som);
         this.somEffect.do();
         this.listening = false;
     }
